@@ -4,12 +4,12 @@ import com.tecsup.lab01.model.User;
 
 public class UserController {
 
-	User p = new User("katherine","Carrera",21);
+	User p = new User("Pepe","Rodriguez",21);
 
 
-	public void obtener() 
+	public String obtener() 
 	{
-		System.out.println("Datos:"+p.nombre+" "+p.apellPaterno+" "+p.edad);
+		return "Datos:"+p.nombre+" "+p.apellPaterno+" "+p.edad;
 	}
 	
 	

@@ -5,9 +5,7 @@ public class UserViews extends UserController{
 
 	public static void main(String[] args) {
 		
-		UserController u= new UserController();
-		
-	u.obtener();
+	
 	}
 
 }
