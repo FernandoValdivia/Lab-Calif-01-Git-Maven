@@ -1,6 +1,7 @@
 package com.tecsup.lab01.model;
 
 public class User {
+
 	public String nombres;
 	public String apellPaterno;
 	public int edad;
@@ -29,4 +30,5 @@ public class User {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+
 }

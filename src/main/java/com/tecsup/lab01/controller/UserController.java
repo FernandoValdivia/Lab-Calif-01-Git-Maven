@@ -1,4 +1,20 @@
 package com.tecsup.lab01.controller;
-public class UserController{
 
+
+import com.tecsup.*;
+import com.tecsup.lab01.model.User;
+
+public class UserController {
+
+
+	User p = new User("Pepe","Rodriguez",21);
+
+
+	public String obtener() 
+	{
+		return "Datos:"+p.nombres+" "+p.apellPaterno+" "+p.edad;
+	}
+	
+	
+	
 }
